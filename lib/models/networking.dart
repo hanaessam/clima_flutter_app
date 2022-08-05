@@ -1,17 +1,17 @@
 import 'package:http/http.dart' as http;
-import '../services/location.dart';
+
 
 import 'dart:convert';
 
 class NetworkHelper {
-  var url;
+  String url;
   NetworkHelper(this.url);
 
   Future<void> getData() async {
-    Uri.parse(url);
-    http.Response response = await http.get(url);
+    var endpoint = Uri.parse(url);
+    var response = await http.post(endpoint);
     if(response.statusCode == 200) {
-      String data = response.body;
+      var data = response.body;
       return jsonDecode(data);
     } else {
       print(response.statusCode);
