@@ -1,16 +1,14 @@
-# clima
 
-A new Flutter project.
+# Clima
 
-## Getting Started
+A weather app that gets the weather in your location and lets you know the weather in any other city you search for!
 
-This project is a starting point for a Flutter application.
+- Used MVC (Models-Views-Controllers) design pattern.
+- Used OOP concepts and OO design principles.
+- Used OpenWeatherMap API for the weather data in the backend.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## App Overview 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Clima](https://user-images.githubusercontent.com/81986017/183157119-c727aa2e-6b7f-49e6-837e-f859d9123f41.svg)
+![Clima (1)](https://user-images.githubusercontent.com/81986017/183157137-9bcf5ab2-df7d-4be5-baec-d47405cca6d6.svg)
